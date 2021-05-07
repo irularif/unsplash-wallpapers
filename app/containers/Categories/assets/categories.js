@@ -24,9 +24,16 @@ import specialBackground from './backgrounds/Special.jpg';
 import specialIcon from './icons/Special.png';
 import artsBackground from './backgrounds/Arts.jpg';
 import artsIcon from './icons/Arts.png';
+import myWallpaperBackground from './backgrounds/MyWallpaper.jpg';
 
 export default {
   items: [
+    {
+      id: '93835353',
+      title: 'MyWallpaper',
+      background: myWallpaperBackground,
+      icon: wallpapersIcon,
+    },
     {
       id: '1065396',
       title: 'Special',
